@@ -10,4 +10,3 @@ plt.imshow(person)
 plt.show()
 
 print(person.shape)  # (390, 398, 3)
-print(person.shape)  # (390, 398, 3)
