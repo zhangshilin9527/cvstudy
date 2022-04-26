@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
+# flags标志位， 表示读取数据的格式，读取彩色可以设为cv2.IMREAD_COLOR（flags=1），读取灰度图像设为cv2.IMREAD_GRAYSCALE(flags=0)，读取原始图像设为cv2.IMREAD_UNCHANGED(flags=-1)。
 img = cv2.imread("img/palace.jpg", 1)
 
 # 图像基本属性: 图像大小、维度、数据类型、通道
@@ -179,6 +180,3 @@ plt.imshow(img_HSV)
 plt.show()
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-
-

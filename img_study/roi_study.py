@@ -81,3 +81,6 @@ plt.imshow(person_and_img)
 person_and_img1 = cv2.addWeighted(person_and_mask2, 0.8, img_new, 1, 1)
 plt.imshow(person_and_img1)
 plt.show()
+
+
+
